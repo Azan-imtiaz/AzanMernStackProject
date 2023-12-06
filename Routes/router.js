@@ -7,6 +7,7 @@ const controllers = require("../Controllers/usersControllers");
 //routes
 
 //api for regsiter user
+
 router.post(
   "/user/register",
   upload.single("user_profile"),
